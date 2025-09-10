@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santhiya P - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background: #c6b5b5;
+      color: white;
+      width: 30%;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .sidebar h2 {
+      margin-top: 0;
+    }
+    .sidebar p {
+      line-height: 1.6;
+    }
+    .contact-info {
+      margin-top: 20px;
+    }
+    .contact-info p {
+      margin: 8px 0;
+    }
+
+    /* Main content */
+    .main {
+      flex: 1;
+      background: #f9f9f9;
+      padding: 40px;
+    }
+    .main h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    .main h3 {
+      margin-top: 25px;
+      font-size: 20px;
+      color: #444;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .main ul {
+      list-style: none;
+      padding: 0;
+    }
+    .main ul li {
+      margin: 8px 0;
+      padding-left: 15px;
+      position: relative;
+    }
+    .main ul li::before {
+      content: "➤";
+      position: absolute;
+      left: 0;
+      color: #a07a7a;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+      .sidebar {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div>
+      <h2>PROFILE</h2>
+      <p>Computer science student.<br>
+         I consider myself a responsible and orderly person.<br>
+         I am looking forward to my first work experience.
+      </p>
+    </div>
+
+    <div class="contact-info">
+      <h2>CONTACT ME</h2>
+      <p>📞 +91 6369746946</p>
+      <p>✉️ santhiyap24cse@vetias.ac.in</p>
+      <p>📍 4/189, Subbarayan Street,<br>
+         Chinnamoopanpudur,<br>
+         Siruvalur(po), Erode Dt.
+      </p>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div class="main">
+    <h1>Santhiya P</h1>
+    <p><em>Student</em></p>
+
+    <h3>EDUCATION</h3>
+    <p><b>Bharathiyar University</b><br>
+       School of Computing<br>
+       VET Institute of Arts & Science (Co-Education) College<br>
+       <em>Bachelor of Computer Science (2024 - 2027)</em>
+    </p>
+
+    <h3>LANGUAGE</h3>
+    <ul>
+      <li>Native Tamil</li>
+      <li>Advanced English</li>
+    </ul>
+
+    <h3>SKILLS</h3>
+    <ul>
+      <li>Programming in C</li>
+      <li>Basic AI tools</li>
+      <li>Full stack</li>
+      <li>Python</li>
+      <li>C++</li>
+    </ul>
+
+    <h3>CERTIFICATION</h3>
+    <ul>
+      <li>Kick start your programming career with C</li>
+      <li>Smart English basic for professionals</li>
+      <li>Artificial Intelligence tools in IT</li>
+    </ul>
+  </div>
+
+</body>
+</html>
